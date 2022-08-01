@@ -1,0 +1,31 @@
+{
+  "name": "adminshop",
+  "version": "1.0.0",
+  "description": "admin",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/server.js",
+    "watch": "node-sass --watch src/resources/scss --output src/public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PVTuan1542/AdminBookShop.git"
+  },
+  "author": "Tuan",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "express-handlebars": "^6.0.6",
+    "express-mysql-session": "^2.1.8",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "mysql": "github:mysqljs/mysql"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
